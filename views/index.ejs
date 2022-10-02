@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css">
+    <!-- <link rel="stylesheet" href="/css/bootstrap.min.css">   -->
+    <title>Document</title>
+</head>
+<body>
+    <div id="Container"><h1>CSV</h1></div>
+   <div id="Container">
+    
+   
+        <div class="upload">
+<div id="filei">
+    <form action="/" method="POST" enctype="multipart/form-data">
+    <label id="file-labe" for="">File Upload</label>
+    <h3>Select file</h3>
+    <input id="input" type="file" name="file">
+    <button type="submit">Upload</button>
+</form>
+</div>
+   
+        </div>
+       
+        <div class="showdata">ShowData
+
+            <%if(data){%>  
+                <div id="tab">  
+                <table  id="tab1" >   
+                <thead>  
+                <tr class="bg-primary">  
+             
+                <th style="padding-right: 1em">Batch</th>  
+                <th style="padding-right: 1em">age</th>   
+                <th>SAPID</th>  
+                <th>Date</th>  
+            
+                </tr>  
+                </thead>  
+                <tbody style="overflow-x: scroll; height:350px;" class="table-bordered">  
+                    <% for (let i of data) { %> 
+                   
+                <tr class="text-center">  
+               
+                <td style="padding-right: 1em"><%= i.Batch %></td>  
+                <td style="padding-left: 1em;"><%= i.age %></td>  
+                <td style="padding-left: 1em"><%= i.SAPID %></td>   
+                <td style="padding-left: 1em"><%= i.Date %></td>  
+               
+                </tr>  
+                <%}%>  
+                </tbody>  
+                </table>  
+                </div>  
+                <%}%>  
+                <br>  
+        </div>
+
+    
+    </div>
+   
+</body>
+</html>

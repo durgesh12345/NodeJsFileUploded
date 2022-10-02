@@ -1,0 +1,102 @@
+#Container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border: 0.5px solid black;
+  background-color: antiquewhite;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+.upload{
+    height: 490px;
+    width: 40%;
+    text-align: center;
+    background-color: rgb(16, 15, 15);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: 5px solid rgb(0, 0, 255);
+   background-image: url("https://tse2.mm.bing.net/th/id/OIP.SHs1T_i0STTFcOKnTzFr8AHaF7?pid=ImgDet&rs=1");
+background-repeat: no-repeat;
+background-size: cover;
+  }
+.showdata{
+    height: 490px;
+    width: 60%;
+   
+    overflow-x: auto;
+    text-align: center;
+   text-decoration: black;
+    background-color: rgb(226, 226, 235);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+#input{
+  border-radius: 6px;
+ width: 200px;
+ padding: 10px;
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 20px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+button{
+   
+   border-style: 0.5 black solid;
+   height: 40px;
+   width: 200px;
+ border-radius: 6px;
+ font-size: 24px;
+ color: aliceblue;
+ background-color: rgb(10, 65, 10);
+}
+button:hover{
+    background-color: rgb(67, 167, 100);
+    padding: 1px;
+    color: black;
+    border: 1px solid rgb(10, 10, 10);
+}
+#filei{
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+border: 4px solid coral;
+}
+#file-label{
+  background-color: black;
+color: aliceblue;
+  width: 240px;
+font-size: larger;
+}
+
+#tab1{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  text-align: center;
+  width: 100%;
+  height: 300px;
+  overflow-x: auto;
+  table-layout:fixed;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+border: 5px solid rgb(255, 0, 0);
+}
+#tab1 td, #tab1 th {
+  border: 1px solid rgb(25, 24, 24);
+  padding: 8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+th{
+  background-color: green;
+  color: aliceblue;
+position: sticky;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
